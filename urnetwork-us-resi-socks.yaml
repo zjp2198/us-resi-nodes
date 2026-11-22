@@ -1,0 +1,52 @@
+# URnetwork 美国家宽 SOCKS5 节点（5 个，免费档已满）
+# 备注：美国家宽，出口已验（家宽、两次同一 IP、204、x.com、1MB）
+# 失效按同流程重抽；完整链接不进聊天。
+proxies:
+  - name: "US-Mt-Pleasant-ATT"
+    type: socks5
+    server: fireside.bringyour.com
+    port: 7117
+    username: "06GVTLN5VECS79LM5VHVICKAEMHH41EAF4GVNCBQ1Q7OOLQOSTK48012IG"
+    password: "x"
+    udp: true
+  - name: "US-Los-Angeles-TMobile"
+    type: socks5
+    server: fireside.bringyour.com
+    port: 7135
+    username: "06GVTNHHDHVRQJN3B8VNA2IT2MJVUB50V8I8H78OMSI1N7TFANQ28C1164"
+    password: "x"
+    udp: true
+  - name: "US-Kansas-City-GoogleFiber"
+    type: socks5
+    server: crisp.bringyour.com
+    port: 7123
+    username: "06GVTRNE86NAD3JGPBBVQV8E9LJA7R9S2KV3JSJT6N6S2RIPS01ENQDA0K"
+    password: "x"
+    udp: true
+  - name: "US-San-Diego-Charter"
+    type: socks5
+    server: crisp.bringyour.com
+    port: 7129
+    username: "06GVTS8HIM37IJMQQM4IMLE1N16KGQ0QSSG0PKL6MSMOIIMSE92FV515D4"
+    password: "x"
+    udp: true
+  - name: "US-Cranston-Verizon"
+    type: socks5
+    server: fireside.bringyour.com
+    port: 7165
+    username: "06GVTTHI1VOFN7TCKK8DV9UT8A4T1EOBO9HBEFHSD7L11HLA3UHPR26OQK"
+    password: "x"
+    udp: true
+
+proxy-groups:
+  - name: "US-RESI"
+    type: select
+    proxies:
+      - "US-Mt-Pleasant-ATT"
+      - "US-Los-Angeles-TMobile"
+      - "US-Kansas-City-GoogleFiber"
+      - "US-San-Diego-Charter"
+      - "US-Cranston-Verizon"
+
+rules:
+  - MATCH,US-RESI
