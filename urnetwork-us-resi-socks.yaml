@@ -16,11 +16,11 @@ proxies:
     username: "06GVTNHHDHVRQJN3B8VNA2IT2MJVUB50V8I8H78OMSI1N7TFANQ28C1164"
     password: "x"
     udp: true
-  - name: "US-Kansas-City-GoogleFiber"
+  - name: "US-Waukegan-Comcast"
     type: socks5
-    server: crisp.bringyour.com
-    port: 7123
-    username: "06GVTRNE86NAD3JGPBBVQV8E9LJA7R9S2KV3JSJT6N6S2RIPS01ENQDA0K"
+    server: fireside.bringyour.com
+    port: 7117
+    username: "06H0G2HHLICTHGFRQVI12DUUSCJ2D1AIKK9OSOBVTDH246NO7MSJUTP8JK"
     password: "x"
     udp: true
   - name: "US-San-Diego-Charter"
@@ -44,7 +44,7 @@ proxy-groups:
     proxies:
       - "US-Mt-Pleasant-ATT"
       - "US-Los-Angeles-TMobile"
-      - "US-Kansas-City-GoogleFiber"
+      - "US-Waukegan-Comcast"
       - "US-San-Diego-Charter"
       - "US-Cranston-Verizon"
 
