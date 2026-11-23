@@ -1,4 +1,4 @@
-# URnetwork 美国家宽 SOCKS5 节点（4 个，洛杉矶节点已失效删除、重抽中）
+# URnetwork 美国家宽 SOCKS5 节点（5 个，洛杉矶节点 Charter 已补回）
 # 备注：美国家宽，出口已验（家宽、两次同一 IP、204、x.com、1MB）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
@@ -31,6 +31,14 @@ proxies:
     password: "x"
     udp: true
 
+  - name: "US-Los-Angeles-Charter"
+    type: socks5
+    server: crisp.bringyour.com
+    port: 7123
+    username: "06H0HQGJ6KCJQBHLEIFIME30M5T8P3FOAMDM9DB53A2431IDAHPKTRVV4C"
+    password: "x"
+    udp: true
+
 proxy-groups:
   - name: "US-RESI"
     type: select
@@ -39,6 +47,7 @@ proxy-groups:
       - "US-Waukegan-Comcast"
       - "US-San-Diego-Charter"
       - "US-Cranston-Verizon"
+      - "US-Los-Angeles-Charter"
 
 rules:
   - MATCH,US-RESI
