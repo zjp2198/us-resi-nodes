@@ -1,4 +1,4 @@
-# URnetwork 美国家宽 SOCKS5 节点（5 个，免费档已满）
+# URnetwork 美国家宽 SOCKS5 节点（4 个，洛杉矶节点已失效删除、重抽中）
 # 备注：美国家宽，出口已验（家宽、两次同一 IP、204、x.com、1MB）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
@@ -7,13 +7,6 @@ proxies:
     server: fireside.bringyour.com
     port: 7117
     username: "06GVTLN5VECS79LM5VHVICKAEMHH41EAF4GVNCBQ1Q7OOLQOSTK48012IG"
-    password: "x"
-    udp: true
-  - name: "US-Los-Angeles-TMobile"
-    type: socks5
-    server: fireside.bringyour.com
-    port: 7135
-    username: "06GVTNHHDHVRQJN3B8VNA2IT2MJVUB50V8I8H78OMSI1N7TFANQ28C1164"
     password: "x"
     udp: true
   - name: "US-Waukegan-Comcast"
@@ -43,7 +36,6 @@ proxy-groups:
     type: select
     proxies:
       - "US-Mt-Pleasant-ATT"
-      - "US-Los-Angeles-TMobile"
       - "US-Waukegan-Comcast"
       - "US-San-Diego-Charter"
       - "US-Cranston-Verizon"
