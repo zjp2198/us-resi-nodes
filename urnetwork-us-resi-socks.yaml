@@ -1,4 +1,4 @@
-# URnetwork 美国家宽 SOCKS5 节点（5 个，2026-11-24 辛辛那提 T-Mobile 已死，替换为弗吉尼亚 RCN-2；另有弗吉尼亚 RCN）
+# URnetwork 美国家宽 SOCKS5 节点（5 个，2026-11-24 沃基根 Comcast 已死，替换为弗吉尼亚 RCN-3；另有弗吉尼亚 RCN、RCN-2）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
   - name: "US-Mt-Pleasant-ATT"
@@ -8,11 +8,11 @@ proxies:
     username: "06GVTLN5VECS79LM5VHVICKAEMHH41EAF4GVNCBQ1Q7OOLQOSTK48012IG"
     password: "x"
     udp: true
-  - name: "US-Waukegan-Comcast"
+  - name: "US-Virginia-RCN-3"
     type: socks5
-    server: fireside.bringyour.com
-    port: 7117
-    username: "06H0G2HHLICTHGFRQVI12DUUSCJ2D1AIKK9OSOBVTDH246NO7MSJUTP8JK"
+    server: crisp.bringyour.com
+    port: 7171
+    username: "06H0RU97D6T8LCM2L4ENEQ4399Q85P9JTSC3BME7QMPTCTJHK3TRDLVOIS"
     password: "x"
     udp: true
   - name: "US-Virginia-RCN"
@@ -43,7 +43,7 @@ proxy-groups:
     type: select
     proxies:
       - "US-Mt-Pleasant-ATT"
-      - "US-Waukegan-Comcast"
+      - "US-Virginia-RCN-3"
       - "US-Virginia-RCN"
       - "US-Virginia-RCN-2"
       - "US-Los-Angeles-Charter"
