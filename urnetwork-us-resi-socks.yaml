@@ -1,5 +1,4 @@
-# URnetwork 美国家宽 SOCKS5 节点（5 个，2026-11-24 辛辛那提 T-Mobile 替换已死 Cranston Verizon）
-# 备注：美国家宽，出口已验（家宽、两次同一 IP、204、x.com、1MB）
+# URnetwork 美国家宽 SOCKS5 节点（5 个，2026-11-24 圣地亚哥 Charter 已死，替换为弗吉尼亚 RCN）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
   - name: "US-Mt-Pleasant-ATT"
@@ -16,11 +15,11 @@ proxies:
     username: "06H0G2HHLICTHGFRQVI12DUUSCJ2D1AIKK9OSOBVTDH246NO7MSJUTP8JK"
     password: "x"
     udp: true
-  - name: "US-San-Diego-Charter"
+  - name: "US-Virginia-RCN"
     type: socks5
-    server: crisp.bringyour.com
-    port: 7129
-    username: "06GVTS8HIM37IJMQQM4IMLE1N16KGQ0QSSG0PKL6MSMOIIMSE92FV515D4"
+    server: fireside.bringyour.com
+    port: 7153
+    username: "06H0QIV7GIBHMP76MVANOP2O5J2AII99JK55RQO1NEPVONL32D015P1H9C"
     password: "x"
     udp: true
   - name: "US-Cincinnati-TMobile"
@@ -45,7 +44,7 @@ proxy-groups:
     proxies:
       - "US-Mt-Pleasant-ATT"
       - "US-Waukegan-Comcast"
-      - "US-San-Diego-Charter"
+      - "US-Virginia-RCN"
       - "US-Cincinnati-TMobile"
       - "US-Los-Angeles-Charter"
 
