@@ -1,13 +1,6 @@
-# URnetwork 美国家宽 SOCKS5 节点（现 4 个，2026-11-25 15:00 洛杉矶 Charter 45.49.6.232 三次超时确认死亡；API 拒建新节点：计划上限 1 个活跃代理、须升级 Pro，暂无法补位，待用户定）
+# URnetwork 美国家宽 SOCKS5 节点（现 3 个，2026-11-25 19:00 Mt. Pleasant AT&T 三连败确认死亡；2026-11-25 15:00 洛杉矶 Charter 已死；API 拒建新节点：计划上限 1 个活跃代理、须升级 Pro，暂无法补位，待用户定）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
-  - name: "US-Mt-Pleasant-ATT"
-    type: socks5
-    server: fireside.bringyour.com
-    port: 7117
-    username: "06GVTLN5VECS79LM5VHVICKAEMHH41EAF4GVNCBQ1Q7OOLQOSTK48012IG"
-    password: "x"
-    udp: true
   - name: "US-Virginia-RCN-3"
     type: socks5
     server: fireside.bringyour.com
@@ -34,7 +27,6 @@ proxy-groups:
   - name: "US-RESI"
     type: select
     proxies:
-      - "US-Mt-Pleasant-ATT"
       - "US-Virginia-RCN-3"
       - "US-Virginia-RCN"
       - "US-Virginia-RCN-2"
