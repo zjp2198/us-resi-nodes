@@ -1,4 +1,4 @@
-# URnetwork 美国家宽 SOCKS5 节点（5 个，2026-11-25 洛杉矶 Charter 旧客户端超时死亡，同出口 45.49.6.232 重建，网关改 crisp:7129）
+# URnetwork 美国家宽 SOCKS5 节点（5 个，2026-11-25 弗吉尼亚 RCN-3 旧客户端超时死亡，同地区同运营商重抽，新出口 5.151.150.14，网关改 fireside:7165）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
   - name: "US-Mt-Pleasant-ATT"
@@ -10,9 +10,9 @@ proxies:
     udp: true
   - name: "US-Virginia-RCN-3"
     type: socks5
-    server: crisp.bringyour.com
-    port: 7171
-    username: "06H0RU97D6T8LCM2L4ENEQ4399Q85P9JTSC3BME7QMPTCTJHK3TRDLVOIS"
+    server: fireside.bringyour.com
+    port: 7165
+    username: "06H1066Q5NHSAKUK0Q0MC3IVVETN1H9G43PGDIK2JLG8186QTJEPJ55TA4"
     password: "x"
     udp: true
   - name: "US-Virginia-RCN"
