@@ -1,4 +1,4 @@
-# URnetwork 美国家宽 SOCKS5 节点（5 个，2026-11-25 弗吉尼亚 RCN-3 旧客户端超时死亡，同地区同运营商重抽，新出口 5.151.150.14，网关改 fireside:7165）
+# URnetwork 美国家宽 SOCKS5 节点（现 4 个，2026-11-25 15:00 洛杉矶 Charter 45.49.6.232 三次超时确认死亡；API 拒建新节点：计划上限 1 个活跃代理、须升级 Pro，暂无法补位，待用户定）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
   - name: "US-Mt-Pleasant-ATT"
@@ -30,14 +30,6 @@ proxies:
     password: "x"
     udp: true
 
-  - name: "US-Los-Angeles-Charter"
-    type: socks5
-    server: crisp.bringyour.com
-    port: 7129
-    username: "06H0UF1I06V00GBFH1SU473D4386JU2EC3JTGLK8SOHIFMVRNRS0FGDFK8"
-    password: "x"
-    udp: true
-
 proxy-groups:
   - name: "US-RESI"
     type: select
@@ -46,7 +38,6 @@ proxy-groups:
       - "US-Virginia-RCN-3"
       - "US-Virginia-RCN"
       - "US-Virginia-RCN-2"
-      - "US-Los-Angeles-Charter"
 
 rules:
   - MATCH,US-RESI
