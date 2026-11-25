@@ -1,13 +1,6 @@
-# URnetwork 美国家宽 SOCKS5 节点（现 2 个，2026-11-25 20:00 弗吉尼亚 RCN（fireside:7153，出口 37.203.169.108）三连败确认死亡；API 拒建新节点：计划上限 1 个活跃代理、须升级 Pro，暂无法补位，待用户定；2026-11-25 19:00 Mt. Pleasant AT&T 已死下线、15:00 洛杉矶 Charter 已死）
+# URnetwork 美国家宽 SOCKS5 节点（现 1 个，2026-11-25 23:00 弗吉尼亚 RCN-3（fireside:7165，出口 5.151.150.14）两轮 SOCKS rep=4 确认死亡；API 拒建新节点：计划上限 1 个活跃代理、须升级 Pro，今日第 4 次失败，暂无法补位，待用户定；2026-11-25 20:00 弗吉尼亚 RCN（fireside:7153）已死、19:00 Mt. Pleasant AT&T 已死、15:00 洛杉矶 Charter 已死）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
-  - name: "US-Virginia-RCN-3"
-    type: socks5
-    server: fireside.bringyour.com
-    port: 7165
-    username: "06H1066Q5NHSAKUK0Q0MC3IVVETN1H9G43PGDIK2JLG8186QTJEPJ55TA4"
-    password: "x"
-    udp: true
   - name: "US-Virginia-RCN-2"
     type: socks5
     server: crisp.bringyour.com
@@ -20,7 +13,6 @@ proxy-groups:
   - name: "US-RESI"
     type: select
     proxies:
-      - "US-Virginia-RCN-3"
       - "US-Virginia-RCN-2"
 
 rules:
