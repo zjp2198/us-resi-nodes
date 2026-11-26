@@ -10,5 +10,3 @@ proxy-groups:
 rules:
   - MATCH,US-RESI
 
-
-
