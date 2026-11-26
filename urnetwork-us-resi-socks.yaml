@@ -1,19 +1,16 @@
-# URnetwork 美国家宽 SOCKS5 节点（现 1 个，2026-11-26 10:00 弗吉尼亚 Windstream（出口 109.175.202.46）重抽成功；旧 Windstream（出口 109.175.204.235）10:00 轮死亡）
+# URnetwork 美国家宽 SOCKS5 节点（现 0 个，2026-11-26 15:00 弗吉尼亚 Windstream（出口 109.175.202.46）死亡，重抽 20 探全败，槽位空着，16:00 轮再试）
 # 失效按同流程重抽；完整链接不进聊天。
-proxies:
-  - name: "US-Virginia-Windstream"
-    type: socks5
-    server: crisp.bringyour.com
-    port: 7171
-    username: "06H1B5P0MKC9GH8CR0QBDNVHAI2N20USCA5OH4HEFDBVF8LO1S8KI6DG7K"
-    password: "x"
-    udp: true
+proxies: []
 
 proxy-groups:
   - name: "US-RESI"
     type: select
-    proxies:
-      - US-Virginia-Windstream
+    proxies: []
 
 rules:
   - MATCH,US-RESI
+
+
+
+
+
