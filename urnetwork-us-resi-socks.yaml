@@ -1,11 +1,11 @@
-# URnetwork 美国家宽 SOCKS5 节点（现 1 个，2026-11-27 16:00 弗吉尼亚 RCN（出口 78.105.172.132，阿什本）重抽成功；旧 RCN（出口 78.105.172.47）16:00 轮死亡）
+# URnetwork 美国家宽 SOCKS5 节点（现 1 个，2026-11-27 19:00 弗吉尼亚 Windstream（出口 46.33.31.243）重抽成功；旧 RCN（出口 78.105.172.132）19:00 轮死亡）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
-  - name: "US-Virginia-RCN"
+  - name: "US-Virginia-Windstream"
     type: socks5
     server: crisp.bringyour.com
-    port: 7129
-    username: "06H1O1DJHG82CPA7198KKG34O1S10P6RIGN4L9OH2T8OK9U5RHB3UR9L2C"
+    port: 7165
+    username: "06H1PAE7V34DQRM7U78A74B5NGOQTIUE490UQNK6IKG9REA313T7EVA5DG"
     password: "x"
     udp: true
 
@@ -13,7 +13,7 @@ proxy-groups:
   - name: "US-RESI"
     type: select
     proxies:
-      - US-Virginia-RCN
+      - US-Virginia-Windstream
 
 rules:
   - MATCH,US-RESI
