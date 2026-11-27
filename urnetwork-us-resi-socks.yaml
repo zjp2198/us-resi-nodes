@@ -1,11 +1,11 @@
-# URnetwork 美国家宽 SOCKS5 节点（现 1 个，2026-11-27 14:00 弗吉尼亚 RCN（出口 78.105.172.47，阿什本）重抽成功；旧 RCN（出口 5.151.128.15）14:00 轮死亡）
+# URnetwork 美国家宽 SOCKS5 节点（现 1 个，2026-11-27 16:00 弗吉尼亚 RCN（出口 78.105.172.132，阿什本）重抽成功；旧 RCN（出口 78.105.172.47）16:00 轮死亡）
 # 失效按同流程重抽；完整链接不进聊天。
 proxies:
   - name: "US-Virginia-RCN"
     type: socks5
-    server: fireside.bringyour.com
-    port: 7141
-    username: "06H1N7DDHICEMH6MO2TPLCH8F89HP1BLQ3GF1OVATNDB9OPIIACGEVRHSC"
+    server: crisp.bringyour.com
+    port: 7129
+    username: "06H1O1DJHG82CPA7198KKG34O1S10P6RIGN4L9OH2T8OK9U5RHB3UR9L2C"
     password: "x"
     udp: true
 
